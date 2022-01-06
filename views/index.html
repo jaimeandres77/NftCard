@@ -16,6 +16,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      font-family: 'Outfit', sans-serif;
     }
 
     .attribution a {
@@ -27,24 +28,25 @@
 <body>
   <main>
     <article>
-      <div>
-        <img src="/images/image-equilibrium.jpg" alt="mainCard-Image">
+      <div class="main-img-container">
+        <img class="main-img" src="/images/image-equilibrium.jpg" alt="mainCard-Image">
+        <img class="eye" src="/images/icon-view.svg" alt="eye">
       </div>
       <h2>Equilibrium #3429</h2>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <section>
-        <div>
+      <p class="outside-text">Our Equilibrium collection promotes balance and calm.</p>
+      <section class="main-info-container">
+        <div class="logo-text-container-left">
           <img src="/images/icon-ethereum.svg" alt="Ehtereum">
-          <h3>0.041 ETH</h3>
+          <h3 class="cyan-text">0.041 ETH</h3>
         </div>
-        <div>
+        <div class="logo-text-container-right">
           <img src="/images/icon-clock.svg" alt="Clock">
-          <h3>3 days left</h3>
+          <h3 class="timeLeft">3 days left</h3>
         </div>
       </section>
-      <section>
+      <section class="bottom-info-container">
         <img src="/images/image-avatar.png" alt="ProfilePicture">
-        <div>
+        <div class="last-info-container">
           <p>Creation of</p><a href="#">Jules Wyvern</a>
         </div>
       </section>

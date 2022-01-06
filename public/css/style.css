@@ -5,3 +5,143 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root{
+    /*Colores*/
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /*(main BG)*/    
+    --Very-dark-blueMain: hsl(217, 54%, 11%);
+    /*(card BG)*/
+    --Very-dark-blueCard : hsl(216, 50%, 16%);
+    /*(line)*/
+    --Very-dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very-dark-blueMain);
+    padding: 10% 0%;
+}
+
+article{
+    background-color: var(--Very-dark-blueCard);
+    font-family: 'Outfit', sans-serif;
+    border-radius: 12px;
+    padding: 7%;
+    width: 90%;
+}
+article .main-img-container{
+    position: relative;
+}
+article .main-img-container .main-img{
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+article .main-img-container .eye{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.main-img:hover .eye{
+    display: block;
+}
+
+h2{
+    color: var(--White);
+    margin: 12px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h2:hover{
+    color: var(--Cyan);
+}
+
+.outside-text{
+    color: var(--Soft-blue);
+    margin: 10px 0px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.main-info-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.logo-text-container-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    font-size: 12px;
+    gap: 4px;
+}
+
+.logo-text-container-left{
+    display: flex;
+    width: 40%;
+    font-size: 12px;
+    gap: 4px;
+}
+
+.cyan-text{
+    color: var(--Cyan);
+}
+
+.timeLeft{
+    color: var(--Soft-blue);
+}
+
+.bottom-info-container{
+    border-top: solid 1px var(--Very-dark-blue);
+    display: flex;
+    width: 100%;
+    padding-top: 7%;
+    gap: 10px;
+}
+
+.bottom-info-container img{
+    width: 10%;
+    border: solid 1px var(--White);
+    border-radius: 50%;
+}
+
+.last-info-container{
+    display: flex;
+    align-items: center;
+}
+
+.last-info-container a{
+    text-decoration: none;
+    color: var(--White);
+    margin-left: 4px;
+}
+
+.last-info-container a:hover{
+    color: var(--Cyan);
+}
+.last-info-container p{
+    color: var(--Soft-blue);
+}
+
+
+@media screen and (min-width:375px){
+    article{
+        width: 20%;
+        padding: 1.5%
+    }
+
+    main{
+        padding: ;
+    }
+}
