@@ -138,7 +138,9 @@ h2:hover{
 @media screen and (min-width:375px){
     article{
         width: 20%;
-        padding: 1.5%
+        padding: 23px;
+        min-width: 330px;
+        
     }
 
 }
