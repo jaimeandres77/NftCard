@@ -19,12 +19,13 @@
     --Very-dark-blue: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 }
-
+body{
+    background-color: var(--Very-dark-blueMain);
+}
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--Very-dark-blueMain);
     padding: 10% 0%;
 }
 
@@ -66,7 +67,7 @@ article .main-img-container .main-img{
     display: block;
 }
 
-h2{
+h1{
     color: var(--White);
     margin: 12px 0px;
     font-weight: 600;
@@ -74,7 +75,7 @@ h2{
     cursor: pointer;
 }
 
-h2:hover{
+h1:hover{
     color: var(--Cyan);
 }
 
