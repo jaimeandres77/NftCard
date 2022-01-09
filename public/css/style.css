@@ -81,30 +81,32 @@ h1:hover{
 
 .outside-text{
     color: var(--Soft-blue);
-    margin: 10px 0px;
+    margin: 16px 0px;
     opacity: 0.8;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .main-info-container{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 12px 0px;
+    margin: 16px 0px;
 }
 
 .logo-text-container-right{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 40%;
-    font-size: 12px;
+    font-size: 8px;
     gap: 4px;
 }
 
 .logo-text-container-left{
     display: flex;
+    align-items: center;
     width: 40%;
-    font-size: 12px;
+    font-size: 8px;
     gap: 4px;
 }
 
